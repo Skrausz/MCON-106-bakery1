@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+h1 {
+    color: #0f172a;
+    background-color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #6d28d9;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+body {
+    color: #334155;
+    background-color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+    line-height: 1.6;
+
+}
+
+:focus-visible {
+    outline-color: blue;
+}
+
+@media (min-width: 700px) {
+    nav a, h1 { flex-direction: row; }
+
+
+
+
+img { max-width: 100%; height: auto;
+}}
